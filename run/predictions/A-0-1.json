@@ -1,0 +1,17 @@
+{
+  "code_sha256": "287a2b0cfb5e884a54b957d67e62000213ec8df4fddd18d737c7075a387a1b37",
+  "family": "A-0-1",
+  "fit_keys": [
+    "bcd099e701e24b4ab58fb90e73861bf5df955209f826d758755cfba2c25de9b7",
+    "46e548defb40e7dfeb100109f7f5f61b912846d5406dbc18458c6ac818d2c315"
+  ],
+  "namespace": "formal",
+  "params_sha256": "8bdee96fa2edc4af3a0bbf5c45d79b0e62f332a5ae35681556406211499044b7",
+  "predictions_sha256": "68caf6cd9c6a6f47aa3587ddb6d679f331e5e003df6ddaf91ade37e4a60042b6",
+  "source_sha256": {
+    "frp_experiment.py": "9f30599d3e018434d9730055fcde41ac733ff482873b7275a55a29dce1345b23",
+    "grouped_families.py": "24509e9ed9aab6343956b690f3be4f6edb2cf3536fc582a4345c5d4e0db88b10",
+    "pc3.py": "7f6e7d63cc0ae5765591d5aba67c498b5730b9bc5a8c71a0e45d7e5a73debf3d",
+    "robust_concrete.py": "ecdd36add6256ca28e7100fc11155fed1e1be4cf0b47a750fcbbca6a2907b5b3"
+  }
+}

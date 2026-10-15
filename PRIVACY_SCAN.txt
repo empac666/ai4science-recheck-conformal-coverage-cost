@@ -1,0 +1,42 @@
+R13 public-copy privacy and integrity scan / 公开副本隐私与完整性扫描
+
+Scope: every public file, including hidden files, filenames, manifests and this report.
+Specified sensitive literals are intentionally omitted from this report.
+Checks: case-insensitive prohibited project/device/account/person identifiers;
+personal email addresses; local POSIX/drive-letter absolute paths; instance metadata;
+excluded runtime-input/backup directory; symlinks; file-size cap 20,000,000 bytes.
+NPZ files: inspect ZIP names, comments, extra fields, NPY headers and numeric dtypes.
+NPY files: inspect headers; anonymous numeric observation IDs are scientific data.
+Compressed numeric payload bytes are not interpreted as human text; all arrays are
+numeric, with no object, string or executable pickle payloads.
+
+Only public-source data evidence was copied; no excluded runtime-input or backup
+content, installed environment, raw launch log, session log or credentials included.
+Original preregistration is byte-identical. Scientific result files remain unchanged;
+task-manifest JSON whitespace compaction preserves the complete parsed object.
+Software versions and protocol/resource limits remain; instance hardware metadata removed.
+Historical hashes and public transformations are separately recorded in PROVENANCE.json.
+The second-run audit PASS is scoped by README.md, results_R13.md and DEVIATIONS.md;
+whole-round procedural integrity retains audit qualification.
+
+SHA256SUMS covers every public file except itself (self-hashing is not possible).
+No network publication or push performed.
+Findings: zero specified sensitive-identifier, personal-email, local-absolute-path,
+instance-metadata or excluded-directory hits; zero symlinks or unknown binaries.
+NPZ metadata/header/dtype checks passed: 7462 numeric archives; 1 numeric NPY.
+Maximum public file: run/locks/tasks.json, 14,013,973 bytes (below 20 MB).
+Public task manifest parses identically to the original 7344-task manifest.
+All 7344 row tables, 7344 result JSONs, 7344 independent JSONs, 256 prediction
+files and 4 object JSONs are byte-identical to their original sources.
+Original frozen preregistration SHA-256 verified; all 22339 protected original
+files unchanged. No original judgments or frozen artifacts were edited.
+
+Full read-only numerical verification: PASS, 7344 tasks, four reason codes match.
+Offline isolated reproduction: PASS, 236 fits, 7344 tasks; 118 prediction families
+match exactly, branch/paired summaries and four object records match exactly.
+Public verification records: results/public_readonly_verification.json and
+results/public_reproduction_check.json.
+SHA256SUMS completeness, all file digests and file-size cap: PASS.
+D-01 remains an unresolved whole-round audit qualification.
+
+STATUS: VERIFIED

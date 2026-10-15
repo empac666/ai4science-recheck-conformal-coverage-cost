@@ -1,0 +1,67 @@
+{
+  "exact_paper_match": true,
+  "frozen_bjt": "2026-10-15T08:24:25.030045+08:00",
+  "install_channel": "uv; CPython standalone distribution and pinned Python package index distributions",
+  "memory_budget_bytes": 8589934592,
+  "model_params": {
+    "categorical_features": null,
+    "early_stopping": false,
+    "interaction_cst": null,
+    "l2_regularization": 1.0,
+    "learning_rate": 0.06,
+    "loss": "quantile",
+    "max_bins": 255,
+    "max_depth": null,
+    "max_features": 1.0,
+    "max_iter": 250,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20,
+    "n_iter_no_change": 10,
+    "random_state": 0,
+    "scoring": "loss",
+    "tol": 1e-07,
+    "validation_fraction": 0.1,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "packages": {
+    "joblib": "1.6.0",
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "psutil": "7.2.2",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.1",
+    "threadpoolctl": "3.7.0"
+  },
+  "paper_versions": [
+    "3.12.3",
+    "2.4.4",
+    "1.8.0",
+    "3.0.2",
+    "1.17.1"
+  ],
+  "reason": "default paper patch-version target available before results",
+  "rng": "numpy.random.RandomState; all seeds preregistered",
+  "threads": {
+    "BLIS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "timing": "time.monotonic, process_time, psutil, resource.getrusage",
+  "unused_dependencies": [
+    "NGBoost",
+    "SHAP",
+    "matplotlib"
+  ],
+  "versions": [
+    "3.12.3",
+    "2.4.4",
+    "1.8.0",
+    "3.0.2",
+    "1.17.1"
+  ],
+  "worker_processes": 1
+}

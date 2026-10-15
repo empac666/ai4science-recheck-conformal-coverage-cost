@@ -1,0 +1,25 @@
+{
+  "bjt": "2026-10-15T08:04:45.207870+08:00",
+  "cpu_seconds": 0.5487998900000002,
+  "environment": [
+    "3.12.3",
+    "2.4.4",
+    "1.8.0",
+    "3.0.2",
+    "1.17.1"
+  ],
+  "fits": 2,
+  "key": "smoke:300001:515x8:synthetic",
+  "maxrss_kib": 162052,
+  "models_discarded": true,
+  "namespace": "smoke",
+  "scientific_metrics_generated": false,
+  "seed": 300001,
+  "shape": [
+    515,
+    8
+  ],
+  "status": "PASS",
+  "synthetic_finite_labels": true,
+  "wall_seconds": 0.5488866829982726
+}

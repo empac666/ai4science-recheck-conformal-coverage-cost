@@ -1,0 +1,36 @@
+{
+  "C": 0.6293333333333333,
+  "E": 0.0026666666666666666,
+  "F_cal": 0,
+  "F_row": 0.0,
+  "IS": {
+    "state": "positive_infinity",
+    "value": null
+  },
+  "W": {
+    "state": "positive_infinity",
+    "value": null
+  },
+  "W_raw": 20.30715174126791,
+  "W_set": 20.312529323496616,
+  "base_cross_rate": 0.032,
+  "base_cross_rows": 12,
+  "clip_active_rate": 0.864,
+  "clip_active_rows": 324,
+  "corridor_mean_width": 94.38237412470559,
+  "empty_rows": 1,
+  "endpoint_violation_rate": 0.0,
+  "endpoint_violation_rows": 0,
+  "eta_cal": 0.36,
+  "eta_test": 0.33066666666666666,
+  "fallback_rate": 0.0,
+  "fallback_rows": 0,
+  "full_corridor_rate": 0.0,
+  "full_corridor_rows": 0,
+  "near_zero_empty_rows": 0,
+  "outside_corridor_rate": 0.0026666666666666666,
+  "outside_corridor_rows": 1,
+  "preclip_empty_rate": 0.0,
+  "preclip_empty_rows": 0,
+  "test_n": 375
+}

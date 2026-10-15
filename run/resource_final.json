@@ -1,0 +1,16 @@
+{
+  "T4": "PASS",
+  "cpu_fit_seconds": 53.78227852999995,
+  "cpu_other_seconds": 51.317576470000056,
+  "cpu_supervisor_seconds": 0.96,
+  "cpu_total_seconds": 106.059855,
+  "double_counted_cpu": false,
+  "ended_bjt": "2026-10-15T10:12:24.012669+08:00",
+  "peak_rss_bytes": 387895296,
+  "reason": "normal_exit",
+  "retired_process_cpu_retained": true,
+  "started_bjt": "2026-10-15T10:10:36.553232+08:00",
+  "status": "COMPLETED",
+  "wall_seconds": 108.1130162976333,
+  "worker_exit_code": 0
+}

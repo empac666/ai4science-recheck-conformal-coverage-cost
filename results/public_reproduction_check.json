@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "offline": true,
+  "archived_files_modified": false,
+  "completed_tasks": 7344,
+  "fit_attempts": 236,
+  "prediction_npz_families_exact_array_match": 118,
+  "branch_and_paired_summaries_exact_value_match": true,
+  "comparison_excludes_regenerated_task_keys": true,
+  "object_records_status_and_reason_codes_exact_match": true,
+  "combination_exact_match": true,
+  "whole_round_audit_qualification_remains": true,
+  "original_upstream_source_implementations_not_reauthenticated": true
+}
